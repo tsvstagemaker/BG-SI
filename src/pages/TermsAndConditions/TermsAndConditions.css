@@ -1,0 +1,40 @@
+.terms-and-conditions-body {
+  width: 100%;
+  height: 100%;
+  background-color: #333333;
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+  box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
+}
+
+.terms-and-conditions-body, p, li{
+  font-size: 11px;
+}
+
+.terms-and-conditions-body h2{
+  font-size: 20px;
+}
+
+.terms-and-conditions-body h3{
+  font-size: 16px;
+}
+
+.terms-and-conditions {
+  margin-top: 100px;
+  /* background-color: #333333;
+  text-shadow: 0 0.05rem 0.1rem rgb(0 0 0 / 50%);
+  box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%); */
+}
+
+.terms-and-conditions-footer {
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.Termes-and-conditions-link {
+  color: #1d6ce4;
+}

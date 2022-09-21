@@ -1,0 +1,64 @@
+.active {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+
+.modal-contact {
+  cursor: pointer;
+}
+
+.show {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  background-color: #333333cf;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 0.55);
+  border-color: rgb(255 255 255);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  /* background-color: #3333337a; */
+  border-radius: 5px;
+}
+
+.logo-header {
+  animation: bounceInLogo 0.6s;
+  transform: rotate(0deg) scale(1) translateZ(0);
+  transition: all 0.4s cubic-bezier(0.8, 1.8, 0.75, 0.75);
+}
+
+.logo-header:hover {
+  transform: rotate(15deg) scale(1.2);
+}
+
+@keyframes bounceInLogo {
+  0% {
+    opacity: 1;
+    transform: scale(0.2);
+  }
+
+  25% {
+    opacity: 1;
+    transform: scale(0.7);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

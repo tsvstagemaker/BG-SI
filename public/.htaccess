@@ -1,0 +1,14 @@
+Options -MultiViews
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^bg-si\.fr$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bg-si\.fr$
+RewriteRule ^cptest$ "https\:\/\/bg-si\.fr\/" [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.html [QSA,L]
+Redirect 301 http://bg-si.fr/ https://www.bg-si.fr/
+Redirect 301 http://www.bg-si.fr/ https://www.bg-si.fr/
+Redirect 301 https://bg-si.fr/ https://www.bg-si.fr/
+Redirect 301 bg-si.fr/ https://www.bg-si.fr/
+ErrorDocument 404 https://www.bg-si.fr/notfound
+ErrorDocument 500 https://www.bg-si.fr/notfound
