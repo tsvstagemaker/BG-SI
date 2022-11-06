@@ -1,6 +1,14 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Video from "../../components/video/Video";
+import TestimonialsImg1 from "../../assets/images/testimonials1.jpg";
+import TestimonialsImg2 from "../../assets/images/testimonials2.jpg";
+import TestimonialsImg3 from "../../assets/images/testimonials3.jpg";
+import TestimonialsImg4 from "../../assets/images/testimonials4.jpg";
+import TestimonialsImg5 from "../../assets/images/testimonials5.jpg";
+import TestimonialsImg6 from "../../assets/images/testimonials6.jpg";
+import TestimonialsImg7 from "../../assets/images/testimonials7.jpg";
+import logoBgSi from "../../assets/images/logo-bg-si-min.png";
 
 import "./Testimonials.css";
 
@@ -48,12 +56,18 @@ function Testimonials() {
 
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
-            <div className="card testimonials-card">
+            <div className="card text-bg-custom">
+              <img
+                src={TestimonialsImg1}
+                className="card-img-top"
+                alt={TestimonialsImg1}
+              />
+              <div className="card-title-testimonial">
+                <h5>VS</h5>
+              </div>
+
               <div className="card-body">
-                <div className="card-title-rounded">
-                  <h5 className="card-title">VS</h5>
-                </div>
-                <p className="card-text p-testimonials">
+                <p className="card-text">
                   "J'ai eu l'occasion de me faire entraimer par BG shooting
                   instruction. Un entraineur qualifié et parfaitement compétent
                   dont la pédagogie a fait ses preuves. <br />
@@ -63,18 +77,23 @@ function Testimonials() {
                   Je vous le recommande pour vos entrainements sportifs ou vos
                   formations professionnelles."
                 </p>
-                {/* <div class="card-footer text-muted">2 days ago</div> */}
               </div>
             </div>
           </div>
 
           <div className="col">
-            <div className="card testimonials-card">
+            <div className="card text-bg-custom">
+              <img
+                src={TestimonialsImg2}
+                className="card-img-top"
+                alt={TestimonialsImg2}
+              />
+              <div className="card-title-testimonial">
+                <h5>IF</h5>
+              </div>
+
               <div className="card-body">
-                <div className="card-title-rounded">
-                  <h5 className="card-title">IF</h5>
-                </div>
-                <p className="card-text p-testimonials">
+                <p className="card-text">
                   "Ce week-end j'ai participé à un Master Class de deux jour,
                   organisé dans mon club, avec Bertrand Guillaume : premier jour
                   hand gun, deuxième jour rifle.
@@ -104,18 +123,23 @@ function Testimonials() {
                   Bertrand sait toujours placer un bon mot pour faire descendre
                   la tension ou remotiver les troupes."
                 </p>
-                {/* <div class="card-footer text-muted">2 weeks ago</div> */}
               </div>
             </div>
           </div>
 
           <div className="col">
-            <div className="card testimonials-card">
+            <div className="card text-bg-custom">
+              <img
+                src={TestimonialsImg3}
+                className="card-img-top"
+                alt={TestimonialsImg3}
+              />
+              <div className="card-title-testimonial">
+                <h5>PP</h5>
+              </div>
+
               <div className="card-body">
-                <div className="card-title-rounded">
-                  <h5 className="card-title">PP</h5>
-                </div>
-                <p className="card-text p-testimonials">
+                <p className="card-text">
                   "J'ai beaucoup apprécié le stage avec Bertrand GUILLAUME.{" "}
                   <br />
                   J'étais venu pour me perfectionner, c'est mission accomplie.
@@ -127,18 +151,23 @@ function Testimonials() {
                   pas eu lieu) et à tous les membres du groupe (vous êtes super
                   sympa). 👏👏👏 Au plaisir de tous vous revoir sur le range.😉"
                 </p>
-                {/* <div class="card-footer text-muted">20/09/2022</div> */}
               </div>
             </div>
           </div>
 
           <div className="col">
-            <div className="card testimonials-card">
+            <div className="card text-bg-custom">
+              <img
+                src={TestimonialsImg4}
+                className="card-img-top"
+                alt={TestimonialsImg4}
+              />
+              <div className="card-title-testimonial">
+                <h5>DB</h5>
+              </div>
+
               <div className="card-body">
-                <div className="card-title-rounded">
-                  <h5 className="card-title">DB</h5>
-                </div>
-                <p className="card-text p-testimonials">
+                <p className="card-text">
                   "Stage HG et Rifle les 20 et 21 août 2022, animé par Bertrand
                   GUILLAUME En résumé, beaucoup d'éléments positifs : <br />
                   • La qualité de l'intervenant qui maîtrise son sujet, en tant
@@ -167,18 +196,23 @@ function Testimonials() {
                   application.
                   <br /> Deux très belles journées !"
                 </p>
-                {/* <div class="card-footer text-muted">2 days ago</div> */}
               </div>
             </div>
           </div>
 
           <div className="col">
-            <div className="card testimonials-card">
+            <div className="card text-bg-custom">
+              <img
+                src={TestimonialsImg5}
+                className="card-img-top"
+                alt={TestimonialsImg5}
+              />
+              <div className="card-title-testimonial">
+                <h5>LF</h5>
+              </div>
+
               <div className="card-body">
-                <div className="card-title-rounded">
-                  <h5 className="card-title">LF</h5>
-                </div>
-                <p className="card-text p-testimonials">
+                <p className="card-text">
                   "Ce week-end j'ai participé à un Master Class de deux jours,
                   organisé dans mon club, avec Bertrand Guillaume : <br />
                   premier jour hand gun, deuxième jour rifle. <br />
@@ -206,18 +240,23 @@ function Testimonials() {
                   sait toujours placer un bon mot pour faire descendre la
                   tension ou remotiver les troupes."
                 </p>
-                {/* <div class="card-footer text-muted">2 days ago</div> */}
               </div>
             </div>
           </div>
 
           <div className="col">
-            <div className="card testimonials-card">
+            <div className="card text-bg-custom">
+              <img
+                src={TestimonialsImg6}
+                className="card-img-top"
+                alt={TestimonialsImg6}
+              />
+              <div className="card-title-testimonial">
+                <h5>PS</h5>
+              </div>
+
               <div className="card-body">
-                <div className="card-title-rounded">
-                  <h5 className="card-title">PS</h5>
-                </div>
-                <p className="card-text p-testimonials">
+                <p className="card-text">
                   "J'ai beaucoup apprécié le stage avec Bertrand GUILLAUME.
                   J'étais venu pour me perfectionner, c'est mission accomplie.
                   Les exercices dryfires sont vraiment un plus pour progresser,
@@ -240,19 +279,27 @@ function Testimonials() {
                   Un grand merci à Bertrand, à toi Phung (sans qui ce stage
                   n'aurait pas eu lieu et à tous les membres du groupe vous êtes
                   super sympa). Au plaisir de tous vous revoir sur le range."
+                  <br />
+                  Je vous le recommande pour vos entrainements sportifs ou vos
+                  formations professionnelles."
                 </p>
-                {/* <div class="card-footer text-muted">2 days ago</div> */}
               </div>
             </div>
           </div>
 
           <div className="col">
-            <div className="card testimonials-card">
+            <div className="card text-bg-custom">
+              <img
+                src={TestimonialsImg7}
+                className="card-img-top"
+                alt={TestimonialsImg7}
+              />
+              <div className="card-title-testimonial">
+                <h5>SM</h5>
+              </div>
+
               <div className="card-body">
-                <div className="card-title-rounded">
-                  <h5 className="card-title">SM</h5>
-                </div>
-                <p className="card-text p-testimonials">
+                <p className="card-text">
                   "Très bon stage avec une approche très orientée sport et
                   performances. <br />
                   Des informations très utiles sur la préparation physique et
@@ -277,18 +324,19 @@ function Testimonials() {
                   l'avoir organisé. <br />A refaire donc, je suis preneur à
                   100%."
                 </p>
-                {/* <div class="card-footer text-muted">2 days ago</div> */}
               </div>
             </div>
           </div>
 
           <div className="col">
-            <div className="card testimonials-card">
+            <div className="card text-bg-custom">
+              <img src={logoBgSi} className="card-img-top" alt={logoBgSi} />
+              <div className="card-title-testimonial">
+                <h5>MD</h5>
+              </div>
+
               <div className="card-body">
-                <div className="card-title-rounded">
-                  <h5 className="card-title">MD</h5>
-                </div>
-                <p className="card-text p-testimonials">
+                <p className="card-text">
                   "Première expérience pour moi sur une formation de ce type.
                   <br />
                   Les 2 points de progrès en compétition suite à ce we devraient
@@ -300,18 +348,19 @@ function Testimonials() {
                   <br /> Bertrand a su me faire ressentir les points de blocages
                   et le changement après les avoir traités."
                 </p>
-                {/* <div class="card-footer text-muted">2 days ago</div> */}
               </div>
             </div>
           </div>
 
           <div className="col">
-            <div className="card testimonials-card">
+            <div className="card text-bg-custom">
+              <img src={logoBgSi} className="card-img-top" alt={logoBgSi} />
+              <div className="card-title-testimonial">
+                <h5>LP</h5>
+              </div>
+
               <div className="card-body">
-                <div className="card-title-rounded">
-                  <h5 className="card-title">LP</h5>
-                </div>
-                <p className="card-text p-testimonials">
+                <p className="card-text">
                   "Petit groupe de tireurs TSV sympa, nous avons profité a
                   domicile d'une journée riche en astuces et conseils avisés a
                   travers des exercices variés. <br />
@@ -322,7 +371,6 @@ function Testimonials() {
                   <br />
                   Un vrai bonheur, j'en redemande encore !"
                 </p>
-                {/* <div class="card-footer text-muted">2 days ago</div> */}
               </div>
             </div>
           </div>

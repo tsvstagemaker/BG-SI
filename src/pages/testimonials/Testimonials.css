@@ -46,9 +46,49 @@
     background-color: #4b4b4b;
     font-size: 12px;
     word-break: break-all;
-
   }
 
   .p-testimonials{
     word-break: break-word;
+    /* font-size: 14px;
+    background-color: #00000060;
+    border-radius: 3px;
+    padding: 8px; */
   }
+  
+  .text-bg-custom{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #333;
+  background-clip: border-box;
+  border: 1px solid rgb(255 255 255);
+  border-radius: 0.25rem;
+  font-size: 14px;
+}
+
+.text-bg-custom p{
+  font-size: 14px;
+}
+
+.card-title-testimonial{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background-color: #333;
+  padding: 3px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.card-title-testimonial h5{
+  position: relative;
+  top: 50%;
+  left: 62%;
+  transform: translate(-50%, -50%);
+}
+
+
